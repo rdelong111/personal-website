@@ -1,0 +1,10 @@
+body {
+	background: #000000;
+	background-size:  cover;
+	background-attachment: fixed;
+	font-size: 100%;
+}
+
+img {
+	width: 33%;
+}

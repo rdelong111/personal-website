@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-	background: #808080;
+	background: url(./images/background.jpeg) center no-repeat;
 	background-size:  cover;
 	background-attachment: fixed;
 	font-size: 100%;
@@ -13,23 +13,27 @@ body {
 .wrapper {
 	margin: 0 auto;
 	width:  75%;
-	padding-bottom: 40px;
 }
 
 #content {
-	background: #00FF00;
+	background: rgba(189, 195, 199, .80);
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
-#bgnpics {
-	padding-top: 40px;
+.bgnpics {
 	text-align: center;
 }
 
-img.thetwopics {
-	display:  inline-block;
-	margin-left: 100px;
-	margin-right: 100px;
-	height: 400px;
+.imgcontainer {
+	display: inline-table;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 30px;
+}
+
+.bgnpics img {
+	height: 300px;
 }
 
 h1 {
@@ -37,4 +41,8 @@ h1 {
 	margin-bottom: 0;
 	text-align: center;
 	font-family: sans-serif;
+}
+
+p {
+	font-size: 1.25em;
 }
