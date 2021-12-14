@@ -29,11 +29,12 @@ body {
 	display: inline-table;
 	padding-left: 100px;
 	padding-right: 100px;
-	padding-top: 30px;
+	padding-top: 15px;
 }
 
 #dogsection .imgcontainer {
 	text-align: center;
+	padding-bottom: 15px;
 }
 
 .bgnpics img {
@@ -61,7 +62,7 @@ h3 {
 }
 
 h4 {
-	font-size: 1.1em;
+	font-size: 1.25em;
 	font-family: sans-serif;
 	background: #00FF00;
 	margin-top: 0px;
@@ -81,4 +82,14 @@ section#bottompage div {
 	margin: auto;
 	width: 25%;
 	background: rgba(189, 195, 199, .80);
+}
+
+section#inputsection {
+	background: rgba(189, 195, 199, .80);
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
