@@ -25,11 +25,15 @@ body {
 	text-align: center;
 }
 
-.imgcontainer {
+.bgnpics .imgcontainer {
 	display: inline-table;
 	padding-left: 100px;
 	padding-right: 100px;
 	padding-top: 30px;
+}
+
+#dogsection .imgcontainer {
+	text-align: center;
 }
 
 .bgnpics img {
@@ -43,6 +47,38 @@ h1 {
 	font-family: sans-serif;
 }
 
+h2 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+h3 {
+	font-size: 2em;
+	margin-top: 50px;
+	font-family: sans-serif;
+}
+
+h4 {
+	font-size: 1.1em;
+	font-family: sans-serif;
+	background: #00FF00;
+	margin-top: 0px;
+}
+
 p {
 	font-size: 1.25em;
+}
+
+#thedogs img{
+	width: 50%;
+}
+
+section#bottompage div {
+	float: left;
+	text-align: center;
+	margin: auto;
+	width: 25%;
+	background: rgba(189, 195, 199, .80);
 }
